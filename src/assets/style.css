@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    flex-direction: column;
+    margin: 100px;
+    margin: 100px;
+    padding: 300px;
+    background-image: url(./img/fond-colors.png) ;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: x-large;
+}
+
+h1{
+    color: white;
+}
+p{
+    font-size: x-large;
+    color: white;
+}
