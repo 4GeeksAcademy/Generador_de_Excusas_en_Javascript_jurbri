@@ -3,7 +3,13 @@ function generarExcusa() {
   let who = ["The dog", "My grandma", "The mailman", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
   let what = ["my homework", "my phone", "the car"];
-  let when = [  "before the class","when I was sleeping","while I was exercising","during my lunch","while I was praying"];
+  let when = [
+    "before the class",
+    "when I was sleeping",
+    "while I was exercising",
+    "during my lunch",
+    "while I was praying"
+  ];
 
   // Generar un índice aleatorio para cada array
   const whoRandom = Math.floor(Math.random() * who.length);
@@ -19,7 +25,6 @@ function generarExcusa() {
 
 // Función para mostrar la excusa en el HTML
 function mostrarExcusa() {
-  
   // Obtener el elemento con el ID "excuse"
   let excuseElement = document.getElementById("excuse");
 
@@ -30,4 +35,4 @@ function mostrarExcusa() {
   excuseElement.innerHTML = excuse;
 }
 
-onload = mostrarExcusa();
+window.onload = mostrarExcusa();
