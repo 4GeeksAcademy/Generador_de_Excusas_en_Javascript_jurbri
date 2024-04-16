@@ -18,7 +18,7 @@ function generarExcusa() {
   const whenRandom = Math.floor(Math.random() * when.length);
 
   // Concatenar las palabras para formar la excusa
-  const excusa = `${who[whoRandom]} ${action[actionRandom]}${what[whatRandom]}${when[whenRandom]}.`;
+  const excusa = `${who[whoRandom]} ${action[actionRandom]} ${what[whatRandom]} ${when[whenRandom]}.`;
 
   return excusa;
 }
